@@ -1,0 +1,34 @@
+{
+  "name": "zenith-architecture-studio",
+  "version": "1.0.0",
+  "description": "A modern, aesthetic, and minimal Vue.js web application for an architecture office portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000",
+    "build": "echo 'This is a static website, no build process needed'",
+    "preview": "npx serve . --listen 8080"
+  },
+  "keywords": [
+    "architecture",
+    "portfolio",
+    "vue.js",
+    "bootstrap",
+    "responsive",
+    "modern",
+    "minimal"
+  ],
+  "author": "Zenith Architecture Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zenith-architecture-studio.git"
+  },
+  "homepage": "https://your-username.github.io/zenith-architecture-studio",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
