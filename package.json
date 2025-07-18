@@ -6,8 +6,11 @@
   "scripts": {
     "start": "npx serve .",
     "dev": "npx serve . --listen 3000",
-    "build": "echo 'This is a static website, no build process needed'",
-    "preview": "npx serve . --listen 8080"
+    "build": "echo 'Static site ready for deployment'",
+    "preview": "npx serve . --listen 8080",
+    "netlify-dev": "netlify dev",
+    "deploy": "netlify deploy",
+    "deploy-prod": "netlify deploy --prod"
   },
   "keywords": [
     "architecture",
